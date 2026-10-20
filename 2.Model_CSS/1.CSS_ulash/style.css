@@ -34,3 +34,16 @@ h2 {
   font-style:unset;
   font-family: 'Times New Roman', Times, serif; 
 }
+
+
+/* Bu darsimizda ishlatilib o`rganadigan sectionlar royhatini beramiz.
+color - rangni o`zgartirish 
+background-color - orqa fonni o`zgartirish 
+text-align - matnni o`ngga, chapga yoki markazga joylashtirish
+font-weight - matnni qalinlashtirish (100 - 900),normal,bold, lighter
+font-style - matnni kursiv qilish(italic,normal,oblique)
+font-family - matnni shriftini o`zgartirish 
+text-decoration - matnni tagini chizish, ustiga chizish yoki hech narsa qilmaslik (underline,overline,line-through,none)
+
+
+*/
