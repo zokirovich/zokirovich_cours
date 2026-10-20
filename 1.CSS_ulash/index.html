@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name='description' content='sematic tag'>
+	<meta name='author' content='Samandarov Shokirjon'>
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<!-- Internal style ni ko`rib chiqsak -->
+	<style>
+		/* 
+			selector {
+			property: value;
+			}
+			*/
+		/* Shunaqa ko`rinishga ega bo`ladi */
+		/* h2 {
+			color: red;
+			text-align: center;
+			text-decoration: underline;
+			font-size: 18px;
+		} */
+	</style>
+</head>
+
+<body>
+	<h2 class='header-two'>Lorem, ipsum.</h2>
+	<!-- Css ulash usullari.
+	 CSS ni uch xil usulda ishlatish mumkin hisoblanadi 
+	 1- <head> bo`limiga style berib ishlatishimiz mumkin. NORECOMEND
+	 2- To`g`ridan to`gri tagni o`ziga styleni yozib ishlatishimiz mumkin. NORECOMEND
+	 3- Alohida style.css fayl ochib ulashimiz mumkin. RECOMEND
+
+	 Nomlar:
+	 1- Inline style - to`g`ridan to`gri tagga style berish
+	 2- Internal style - <head> bo`limiga style berish
+	 3- External style - alohida style.css fayl ochib ulash
+
+	 style bergan paytim masalan: text-align: center; deb yozsam bunda 
+	 text-align property
+	 center esa value hisoblanadi.
+ 	-->
+	<p id='lorem-one'>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+		adipisicing elit. Quisquam, quod.
+	</p>
+	<h1 style="
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	"> <!--Shuning uchun inline style tafsiya qilinmidi shunaqa yozilganligi sababli -->
+		Lorem, ipsum dolor.
+	</h1>
+
+	<!-- Table haqida ko`rib chiqamiz -->
+
+	<table border='1' cellspacing='0' style='text-align: center
+	;'>
+		<thead>
+			<th>First name</th>
+			<th>Nama</th>
+			<th>Last name</th>
+		</thead>
+		<tbody>
+			<td>Samandarov</td>
+			<td>Shokir</td>
+			<td>Zokirovich</td>
+		</tbody>
+		<tbody>
+			<td>Samandarov</td>
+			<td>Bekhzod</td>
+			<td>Davranovich</td>
+		</tbody>
+	</table>
+</body>
+
+</html>

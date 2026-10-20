@@ -1,0 +1,49 @@
+/* 
+CSS da uch hil qilib taglarni chaqirib olib ishatishimiz mumkin hisoblanadi
+Bular 
+
+Class orqali chaqirish da nuqta(.) bilan chaqriladi
+ID orqali chaqirish da # bilan chaqriladi
+Element orqali chaqirishda tag nomi bilan chaqriladi 
+*/
+/* 
+h2 {
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+} */ 
+ 
+ /* class bilan chaqirish */
+.header-two {
+
+  color:darkslateblue;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style:unset;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+/* id bilan chaqirish */
+
+#lorem-one { 
+  color: darkorange;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style:unset;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+/* Bu darsimizda ishlatilib o`rganadigan sectionlar royhatini beramiz.
+color - rangni o`zgartirish 
+background-color - orqa fonni o`zgartirish 
+text-align - matnni o`ngga, chapga yoki markazga joylashtirish
+font-weight - matnni qalinlashtirish (100 - 900),normal,bold, lighter
+font-style - matnni kursiv qilish(italic,normal,oblique)
+font-family - matnni shriftini o`zgartirish 
+text-decoration - matnni tagini chizish, ustiga chizish yoki hech narsa qilmaslik (underline,overline,line-through,none)
+
+
+*/
