@@ -1,0 +1,40 @@
+nav{
+	width: autos;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: azure;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.box-rel {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background-color: blue	;
+} 
+
+.box-abs {
+	width: 30px;
+	height: 30px;
+	background-color: crimson;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* 
+    #Position
+       1. Absolute 
+	   2. Relative
+	   3. Fixed
+
+	   Relative bu absolyut uchun ona bo`la oladigan proportiy hisoblanadi
+*/

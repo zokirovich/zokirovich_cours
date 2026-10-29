@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+.por-cl {
+	background-color: crimson;
+	border: 5px solid yellow;
+	padding: 10px 5px;
+	width: 200px;	
+	border-radius: 10px;
+}
+
+.clc-btn {
+	background-color: blue;
+	color: white;
+	border: 5px solid blue;
+	border-radius: 10px;
+	margin: 0 80px;	
+}
+
+.dv-block {
+	display: inline-block;
+}
+.clc-btn {
+	margin: 0 10px 0 120px;
+}
+
+
+/*  
+ Display: Inline,Inline-block,block
+   #display:
+     #1 block - bu asosan block hisoblandi ya`ni karobka 
+	 #2 inline - bu asosan inline hisoblandi 
+	 #3 inline-block - bu asosan inline va block hisoblandi
+*/
+
+
